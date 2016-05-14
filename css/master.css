@@ -50,7 +50,6 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 100%;
     height: 35px;
 }
 .navbar a {
@@ -79,11 +78,11 @@ body {
 
 
 /*-------- Estilos de la segunda barra de navegacion ----------*/
-
 .navbar2 {
     position: absolute;
     top: 37px;
     width: 100%;
+    border: 1px solid black;
     height: 40px;
     background-color: rgb(65, 61, 66);
     color: white;

@@ -1,0 +1,148 @@
+/*----- Inicio del Restet general del index-----*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ------------ FIN DEL RESET -----------*/
+
+
+/* --------- Configuracion general de la pagina --------*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ---------- Fin de la configuracion general de la pagina ----*/
+
+
+/*------ Estilos de la primera barra de navegacion ----------*/
+
+.navbar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 35px;
+}
+.navbar a {
+    text-decoration: none;
+    position: relative;
+    top: 9px;
+    left: 1200px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(27, 158, 25);
+}
+.navbar a.contacto {
+    left: 1210px;
+}
+.navbar i {
+    color: rgb(27, 158, 25);
+    position: relative;
+    top: 9px;
+    left: 1228px;
+}
+.navbar a.login {
+    left: 1230px;
+}
+
+/*------- Fin de los estilos de la primera barra de navegacion -------*/
+
+
+/*-------- Estilos de la segunda barra de navegacion ----------*/
+
+.navbar2 {
+    position: absolute;
+    top: 37px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(65, 61, 66);
+    color: white;
+}
+.navbar2 h2 {
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    top: 5px;
+    left: 310px;
+    font-size: 25px;
+}
+.nbreporte {
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    top: -20px;
+    left: 680px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.navbar2 i {
+    position: relative;
+    font-size: 13px;
+    top: -21px;
+    left: 820px;
+    color: rgb(78, 82, 75);
+}
+.navbar2 input.search {
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    top: -21px;
+    left: 850px;
+    border-radius: 5px;
+    width: 250px;
+    height: 23px;
+    font-size: 15px;
+}
+
+/*Fin de los estilos de la segunda barra de navegacion -----*/
+
+
+/* Inicio del Cuerpo en general de la pagina*/
+
+.videospot iframe {
+    position: absolute;
+    top: 140px;
+    left: 400px;
+}
+.videospoth2 {
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    top: 95px;
+    left: 590px;
+    font-size: 25px;
+    background-color: rgb(78, 82, 75);
+    color: white;
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+/*Fin del cierpo general de la pagina */

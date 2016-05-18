@@ -1,4 +1,4 @@
-/*----- Inicio del Restet general del index-----*/
+    /*----- Inicio del Restet general del index-----*/
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
@@ -73,216 +73,205 @@ body {
 .navbar a.login {
     left: 1230px;
 }
-
-/*------- Fin de los estilos de la primera barra de navegacion -------*/
-
-
-/*-------- Estilos de la segunda barra de navegacion ----------*/
-.navbar2 {
-    position: absolute;
-    top: 37px;
-    width: 100%;
-    border: 1px solid black;
-    height: 40px;
-    background-color: rgb(65, 61, 66);
-    color: white;
-}
-.navbar2 h2 {
-    font-family: 'Ubuntu', sans-serif;
-    position: relative;
-    top: 5px;
-    left: 310px;
-    font-size: 25px;
-}
-.nbreporte {
-    font-family: 'Ubuntu', sans-serif;
-    position: relative;
-    top: -20px;
-    left: 680px;
-    text-decoration: none;
-    font-size: 25px;
-    color: white;
-}
-.navbar2 i {
-    position: relative;
-    font-size: 13px;
-    top: -21px;
-    left: 820px;
-    color: rgb(78, 82, 75);
-}
-.navbar2 input.search {
-    font-family: 'Ubuntu', sans-serif;
-    position: relative;
-    top: -21px;
-    left: 850px;
-    border-radius: 5px;
-    width: 250px;
-    height: 23px;
-    font-size: 15px;
-}
-
-/*-------Fin de los estilos de la segunda barra de navegacion -----*/
-
-
-/* -------Inicio del Cuerpo en general de la pagina-------*/
-
-.videospot iframe {
-    position: absolute;
-    top: 140px;
-    left: 400px;
-}
-.videospoth2 {
-    font-family: 'Ubuntu', sans-serif;
-    position: absolute;
-    top: 95px;
-    left: 590px;
-    font-size: 25px;
-    background-color: rgb(78, 82, 75);
-    color: white;
-    width: 320px;
-    height: 29px;
-    border-radius: 5px;
-    text-align: center;
-}
-.videospoth2 h2{
-  position: relative;
-  top: 4px;
-}
-.container a{
-    position: absolute;
-    top: 600px;
-    left: 630px;
-    font-size: 20px;
-    text-decoration: none;
-}
-.container {
-  display: table-cell;
-  padding: 1em;
-  text-align: center;
-  vertical-align: middle;
-}
-.container a {
-  color: rgb(65, 61, 66);
-  line-height: 1.4;
-  padding: .25em;
-  text-decoration: none;
-
-  &:hover {
-    background: rgba($white, 1);
-    color: $red;
-  }
-}
-.btn {
-  color: rgb(65, 61, 66);
-  cursor: pointer;
-  display: block;
-  font-size:16px;
-  font-weight: 400;
-  line-height: 45px;
-  margin: 0 auto 2em;
-  max-width: 160px;
-  position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
-  vertical-align: middle;
-  width: 100%;
-
-  @media(min-width: 400px) {
-    display: inline-block;
-    margin-right: 2.5em;
-
-    &:nth-of-type(even) {
-      margin-right: 0;
+.navbar .login-h {
+    overflow: hidden;
+    visibility: hidden;
+    transform: rotateX(-180deg);
+    transform-origin: top center;
+    backface-visibility: hidden;
+    transition: .3s transform ease;
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 10%;
+        right: 10%;
+        height: 1px;
+        background: grey;
     }
-  }
-
-  @media(min-width: 600px) {
-
-    &:nth-of-type(even) {
-      margin-right: 2.5em;
+    /*------- Fin de los estilos de la primera barra de navegacion -------*/
+    /*-------- Estilos de la segunda barra de navegacion ----------*/
+    .navbar2 {
+        position: absolute;
+        top: 37px;
+        width: 100%;
+        border: 1px solid black;
+        height: 40px;
+        background-color: rgb(65, 61, 66);
+        color: white;
     }
-
-    &:nth-of-type(5) {
-      margin-right: 0;
+    .navbar2 h2 {
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+        top: 5px;
+        left: 310px;
+        font-size: 25px;
     }
-
-  }
-
-  &:hover { text-decoration: none; }
-
-}
-.btn-2 {
-    letter-spacing: 0;
-}
-
-.btn-2:hover,
-.btn-2:active {
-  letter-spacing: 5px;
-}
-
-.btn-2:after,
-.btn-2:before {
-  backface-visibility: hidden;
-  border: 1px solid white;
-  bottom: 0px;
-  content: " ";
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  transition: all 280ms ease-in-out;
-  width: 0;
-}
-
-.btn-2:hover:after,
-.btn-2:hover:before {
-  backface-visibility: hidden;
-  border-color: rgb(65, 61, 66);
-  transition: width 350ms ease-in-out;
-  width: 70%;
-}
-
-.btn-2:hover:before {
-  bottom: auto;
-  top: 0;
-  width: 70%;
-}
-
-
-
-/*-------Fin del cuerpo general de la pagina -------*/
-
-
-/* -------Inicio del pie de pagina -------*/
-
-.pie {
-    position: absolute;
-    top: 772px;
-    width: 100%;
-    background-color: rgb(65, 61, 66);
-}
-.pie a.aayuda {
-    position: relative;
-    top: 6px;
-    left: 1200px;
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
-    text-decoration: none;
-}
-.pie p {
-    color: white;
-    font-family: 'Ubuntu', sans-serif;
-    position: relative;
-    top: -9px;
-    left: 500px;
-}
-.DERECHOS{
-  font-family: 'Ubuntu', sans-serif;
-  position: absolute;
-  color: rgb(65, 61, 66);
-  font-size: 20px;
-  top: 200px;
-  left: 1700px;
-  color: black;
-}
-
-/* -------- Fin del pie de pagina ---------*/
+    .nbreporte {
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+        top: -20px;
+        left: 680px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+    }
+    .navbar2 i {
+        position: relative;
+        font-size: 13px;
+        top: -21px;
+        left: 820px;
+        color: rgb(78, 82, 75);
+    }
+    .navbar2 input.search {
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+        top: -21px;
+        left: 850px;
+        border-radius: 5px;
+        width: 250px;
+        height: 23px;
+        font-size: 15px;
+    }
+    /*-------Fin de los estilos de la segunda barra de navegacion -----*/
+    /* -------Inicio del Cuerpo en general de la pagina-------*/
+    .videospot iframe {
+        position: absolute;
+        top: 140px;
+        left: 400px;
+    }
+    .videospoth2 {
+        font-family: 'Ubuntu', sans-serif;
+        position: absolute;
+        top: 95px;
+        left: 590px;
+        font-size: 25px;
+        background-color: rgb(78, 82, 75);
+        color: white;
+        width: 320px;
+        height: 29px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .videospoth2 h2 {
+        position: relative;
+        top: 4px;
+    }
+    .container a {
+        position: absolute;
+        top: 600px;
+        left: 630px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .container {
+        display: table-cell;
+        padding: 1em;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .container a {
+        color: rgb(65, 61, 66);
+        line-height: 1.4;
+        padding: .25em;
+        text-decoration: none;
+        &:hover {
+            background: rgba($white, 1);
+            color: $red;
+        }
+    }
+    .btn {
+        color: rgb(65, 61, 66);
+        cursor: pointer;
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 45px;
+        margin: 0 auto 2em;
+        max-width: 160px;
+        position: relative;
+        text-decoration: none;
+        text-transform: uppercase;
+        vertical-align: middle;
+        width: 100%;
+        @media(min-width: 400px) {
+            display: inline-block;
+            margin-right: 2.5em;
+            &:nth-of-type(even) {
+                margin-right: 0;
+            }
+        }
+        @media(min-width: 600px) {
+            &:nth-of-type(even) {
+                margin-right: 2.5em;
+            }
+            &:nth-of-type(5) {
+                margin-right: 0;
+            }
+        }
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    .btn-2 {
+        letter-spacing: 0;
+    }
+    .btn-2:hover, .btn-2:active {
+        letter-spacing: 5px;
+    }
+    .btn-2:after, .btn-2:before {
+        backface-visibility: hidden;
+        border: 1px solid white;
+        bottom: 0px;
+        content: " ";
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        transition: all 280ms ease-in-out;
+        width: 0;
+    }
+    .btn-2:hover:after, .btn-2:hover:before {
+        backface-visibility: hidden;
+        border-color: rgb(65, 61, 66);
+        transition: width 350ms ease-in-out;
+        width: 70%;
+    }
+    .btn-2:hover:before {
+        bottom: auto;
+        top: 0;
+        width: 70%;
+    }
+    /*-------Fin del cuerpo general de la pagina -------*/
+    /* -------Inicio del pie de pagina -------*/
+    .pie {
+        position: absolute;
+        top: 772px;
+        width: 100%;
+        background-color: rgb(65, 61, 66);
+    }
+    .pie a.aayuda {
+        position: relative;
+        top: 6px;
+        left: 1200px;
+        font-family: 'Ubuntu', sans-serif;
+        color: white;
+        text-decoration: none;
+    }
+    .pie p {
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+        top: -9px;
+        left: 500px;
+    }
+    .DERECHOS {
+        font-family: 'Ubuntu', sans-serif;
+        position: absolute;
+        color: rgb(65, 61, 66);
+        font-size: 20px;
+        top: 200px;
+        left: 1700px;
+        color: black;
+    }
+    /* -------- Fin del pie de pagina ---------*/

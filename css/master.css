@@ -1,97 +1,92 @@
     /*----- Inicio del Restet general del index-----*/
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
 
-/* HTML5 display-role reset for older browsers */
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-    display: block;
-}
-body {
-    line-height: 1;
-}
-ol, ul {
-    list-style: none;
-}
-blockquote, q {
-    quotes: none;
-}
-blockquote:before, blockquote:after, q:before, q:after {
-    content: '';
-    content: none;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-/* ------------ FIN DEL RESET -----------*/
-
-
-/* --------- Configuracion general de la pagina --------*/
-
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
-/* ---------- Fin de la configuracion general de la pagina ----*/
-
-
-/*------ Estilos de la primera barra de navegacion ----------*/
-
-.navbar {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 35px;
-}
-.navbar a {
-    text-decoration: none;
-    position: relative;
-    top: 9px;
-    left: 1200px;
-    text-align: center;
-    font-size: 14px;
-    color: rgb(27, 158, 25);
-}
-.navbar a.contacto {
-    left: 1210px;
-}
-.navbar i {
-    color: rgb(27, 158, 25);
-    position: relative;
-    top: 9px;
-    left: 1228px;
-}
-.navbar a.login {
-    left: 1230px;
-}
-.navbar .login-h {
-    overflow: hidden;
-    visibility: hidden;
-    transform: rotateX(-180deg);
-    transform-origin: top center;
-    backface-visibility: hidden;
-    transition: .3s transform ease;
-    &:before {
-        content: '';
+    article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
         display: block;
+    }
+    body {
+        line-height: 1;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after, q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    /* ------------ FIN DEL RESET -----------*/
+    /* --------- Configuracion general de la pagina --------*/
+
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    /* ---------- Fin de la configuracion general de la pagina ----*/
+    /*------ Estilos de la primera barra de navegacion ----------*/
+
+    .navbar {
         position: absolute;
-        top: 0;
-        left: 10%;
-        right: 10%;
-        height: 1px;
-        background: grey;
+        top: 0px;
+        left: 0px;
+        height: 35px;
+    }
+    .navbar a {
+        text-decoration: none;
+        position: relative;
+        top: 9px;
+        left: 1200px;
+        text-align: center;
+        font-size: 14px;
+        color: rgb(27, 158, 25);
+    }
+    .navbar a.contacto {
+        left: 1210px;
+    }
+    .navbar i {
+        color: rgb(27, 158, 25);
+        position: relative;
+        top: 9px;
+        left: 1228px;
+    }
+    .navbar a.login {
+        left: 1230px;
+    }
+    .navbar .login-h {
+        overflow: hidden;
+        visibility: hidden;
+        transform: rotateX(-180deg);
+        transform-origin: top center;
+        backface-visibility: hidden;
+        transition: .3s transform ease;
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 10%;
+            right: 10%;
+            height: 1px;
+            background: grey;
+        }
     }
     /*------- Fin de los estilos de la primera barra de navegacion -------*/
     /*-------- Estilos de la segunda barra de navegacion ----------*/
+
     .navbar2 {
         position: absolute;
         top: 37px;
@@ -136,6 +131,7 @@ body {
     }
     /*-------Fin de los estilos de la segunda barra de navegacion -----*/
     /* -------Inicio del Cuerpo en general de la pagina-------*/
+
     .videospot iframe {
         position: absolute;
         top: 140px;
@@ -244,6 +240,7 @@ body {
     }
     /*-------Fin del cuerpo general de la pagina -------*/
     /* -------Inicio del pie de pagina -------*/
+
     .pie {
         position: absolute;
         top: 772px;

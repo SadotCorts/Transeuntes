@@ -64,25 +64,9 @@
         left: 1228px;
     }
     .navbar a.login {
+        position: relative;
         left: 1230px;
-    }
-    .navbar .login-h {
-        overflow: hidden;
-        visibility: hidden;
-        transform: rotateX(-180deg);
-        transform-origin: top center;
-        backface-visibility: hidden;
-        transition: .3s transform ease;
-        &:before {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 0;
-            left: 10%;
-            right: 10%;
-            height: 1px;
-            background: grey;
-        }
+        cursor: pointer;
     }
     /*------- Fin de los estilos de la primera barra de navegacion -------*/
     /*-------- Estilos de la segunda barra de navegacion ----------*/
